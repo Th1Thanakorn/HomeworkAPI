@@ -38,7 +38,7 @@ public class HomeworkAPI {
         }
         System.out.println(ChatColor.WHITE + "API Date: " + ChatColor.GREEN + APIHelper.getRelatedDate(apiDate) + ChatColor.RESET);
         System.out.println(ChatColor.WHITE + "Last Updated: " + ChatColor.GREEN + APIHelper.getRelatedDate(lastUpdated) + ChatColor.RESET);
-        System.out.println(ChatColor.WHITE + "API Key: " + ChatColor.GREEN + apiKey);
+        System.out.println(ChatColor.WHITE + "API Key: " + ChatColor.GREEN + apiKey + ChatColor.RESET);
         System.out.print("\n");
 
         // API Getter
