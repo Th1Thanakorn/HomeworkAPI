@@ -9,6 +9,8 @@ public class Homeworks {
     private String apiDate;
     @SerializedName("last_updated")
     private String lastUpdated;
+    @SerializedName("api_key")
+    private String apiKey;
 
     public Homeworks(HomeworkElement[] homeworks, String apiDate, String lastUpdated) {
         this.homeworks = homeworks;
@@ -22,6 +24,10 @@ public class Homeworks {
 
     public String getApiDate() {
         return apiDate;
+    }
+
+    public String getApiKey() {
+        return apiKey;
     }
 
     public HomeworkElement[] getHomeworks() {
