@@ -31,12 +31,14 @@ public class HomeworkAPI {
         Homeworks homeworks = HomeworkAPI.GSON.fromJson(contents, Homeworks.class);
         String lastUpdated = homeworks.getLastUpdated();
         String apiDate = homeworks.getApiDate();
+        String apiKey = homeworks.getApiKey();
         for (Homeworks.HomeworkElement element : homeworks.getHomeworks()) {
             Date date = DATE_FORMAT.parse(element.getDate());
             HOMEWORKS_HISTORY.put(date, element);
         }
         System.out.println(ChatColor.WHITE + "API Date: " + ChatColor.GREEN + APIHelper.getRelatedDate(apiDate) + ChatColor.RESET);
         System.out.println(ChatColor.WHITE + "Last Updated: " + ChatColor.GREEN + APIHelper.getRelatedDate(lastUpdated) + ChatColor.RESET);
+        System.out.println(ChatColor.WHITE + "API Key: " + ChatColor.GREEN + apiKey);
         System.out.print("\n");
 
         // API Getter
