@@ -56,7 +56,7 @@ public class HomeworkAPI {
     public static Homeworks.HomeworkElement getHomeworks(String day) throws ParseException {
         Date date = DATE_FORMAT.parse(day);
         for (Date homeworkDate : HOMEWORKS_HISTORY.keySet()) {
-            if (date.getDate() == homeworkDate.getDate()) {
+            if (date.getDate() == homeworkDate.getDate() && date.getMonth() == homeworkDate.getMonth() && date.getYear() == homeworkDate.getYear()) {
                 return HOMEWORKS_HISTORY.get(homeworkDate);
             }
         }
