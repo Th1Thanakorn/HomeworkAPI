@@ -40,6 +40,15 @@ public class HomeworkUtils {
             date = DateUtils.DATE_FORMAT.format(lcDate);
             System.out.println(date);
         }
+        else if (date.equalsIgnoreCase("all")) {
+            for (Date tempDate : HomeworkAPI.HOMEWORKS_HISTORY.keySet()) {
+                String dateString = DateUtils.DATE_FORMAT.format(tempDate);
+                System.out.println(dateString);
+                System.out.println(Arrays.toString(HomeworkAPI.HOMEWORKS_HISTORY.get(tempDate).getWorks()));
+                System.out.println("----------------------------------------------------------------------");
+            }
+            return;
+        }
 
         // Get homeworks
         Homeworks.HomeworkElement element = getHomeworks(date);
