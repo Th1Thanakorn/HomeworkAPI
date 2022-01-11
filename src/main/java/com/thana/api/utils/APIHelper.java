@@ -1,4 +1,4 @@
-package com.thana.api;
+package com.thana.api.utils;
 
 import com.thana.api.utils.sugarapi.DateUtils;
 import com.thana.api.utils.sugarapi.TimeUtils;
