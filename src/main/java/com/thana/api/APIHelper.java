@@ -1,7 +1,7 @@
 package com.thana.api;
 
-import com.thana.api.utils.DateUtils;
-import com.thana.api.utils.TimeUtils;
+import com.thana.api.utils.sugarapi.DateUtils;
+import com.thana.api.utils.sugarapi.TimeUtils;
 
 import java.text.ParseException;
 

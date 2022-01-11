@@ -1,4 +1,4 @@
-package com.thana.api;
+package com.thana.api.homeworks;
 
 import com.google.gson.annotations.SerializedName;
 

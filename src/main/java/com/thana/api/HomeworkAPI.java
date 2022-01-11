@@ -2,8 +2,9 @@ package com.thana.api;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.thana.api.utils.ChatColor;
-import com.thana.api.utils.DateUtils;
+import com.thana.api.homeworks.Homeworks;
+import com.thana.api.utils.sugarapi.ChatColor;
+import com.thana.api.utils.sugarapi.DateUtils;
 import com.thana.api.utils.HomeworkUtils;
 import org.apache.commons.io.IOUtils;
 
@@ -18,6 +19,7 @@ public class HomeworkAPI {
 
     public static final String API_URL = "https://app.fakejson.com/q/1P7FQdFq?token=CVuc-35tnqfJ1eARz2OWYg";
     public static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
+    public static final String UNDERLINED = "----------------------------------------------------------------------";
 
     public static final HashMap<Date, Homeworks.HomeworkElement> HOMEWORKS_HISTORY = new HashMap<>();
 

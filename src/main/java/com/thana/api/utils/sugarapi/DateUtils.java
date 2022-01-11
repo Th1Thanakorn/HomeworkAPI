@@ -1,4 +1,4 @@
-package com.thana.api.utils;
+package com.thana.api.utils.sugarapi;
 
 import com.thana.api.date.DateOperators;
 import com.thana.api.date.DaysOfWeek;

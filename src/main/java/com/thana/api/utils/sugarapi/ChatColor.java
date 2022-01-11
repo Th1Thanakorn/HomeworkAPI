@@ -1,4 +1,4 @@
-package com.thana.api.utils;
+package com.thana.api.utils.sugarapi;
 
 public class ChatColor {
 
