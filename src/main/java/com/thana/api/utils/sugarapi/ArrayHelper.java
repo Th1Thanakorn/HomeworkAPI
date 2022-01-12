@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArrayHelper {
 
     /**
-     * Skip any arrays by cloning the array and filtering an array using the index counter.
+     * Skip any arrays by cloning and filtering an array using the index counter.
      * Utilities By: HTML Channel.
      *
      * @param array Input of array.
