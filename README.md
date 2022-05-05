@@ -27,3 +27,4 @@ Author: Thana (Thanakorn Phadungwong)<br/>
 Forked: HTMLChannel<br/>
 License: GNU General Public License v3.0<br/>
 Authentication: Free use for students 9th grade (Piriyalai School)<br/>
+Main Page: https://github.com/Th1Thanakorn/HomeworkAPI/
