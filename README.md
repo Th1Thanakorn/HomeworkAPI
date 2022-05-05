@@ -7,7 +7,7 @@ This project associated with HTMLChannel and my development team.<br/>
 
 # Setting Up
 1. Download the code by pressing the green button signed as "Code" > "Download ZIP".<br/>
-2. Download your IDE by searching in Google and download "IntelliJ IDEA Community" {@here https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC} and then install in match of your OS type.<br/>
+2. Download your IDE by searching in Google and download "IntelliJ IDEA Community" https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC and then install in match of your OS type.<br/>
 3. Extract the .zip file that have been downloaded in the first step by Right Clicking > 7Zip > Extract to ...<br/>
 4. Open your IntelliJ IDEA press Open and then search for your HomeworkAPI zip folder destination.<br/>
 5. This project is using JDK16 which is not contains in your system properly! All you need to do is search for "JDK16 Download" and install it.<br/>
