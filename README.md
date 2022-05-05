@@ -15,8 +15,10 @@ This project associated with HTMLChannel and my development team.<br/>
 7. Press the Run button on the top right corner or Run > Run or even press Shift+F10 on your keyboard, and done!<br/>
 8. Insert everything the program need in the console box (Below the editor).<br/>
 
+# Finalization
+
 This is not the finalization of this project.<br/>
-I will just do some Runnable application service on this project and then you don't need to do the exact same thing again.<br/>
+I will just do some Runnable application service on this project and then you don't need to do the exact same process again.<br/>
 Same as the quotes that said "Write Once, Run Everywhere".<br/>
 That's it. Have a good day!<br/>
 
